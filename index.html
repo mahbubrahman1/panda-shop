@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Logo">
@@ -27,13 +27,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Bag</a>
+                    <a class="nav-link" href="#bag">Bag</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subcribe</a>
+                    <a class="nav-link" href="#subcribe">Subcribe</a>
                   </li>
               </div>
             </div>
@@ -117,7 +117,7 @@
                 </div>
         </section>
         <!-- shoes -->
-        <section class="container">
+        <section class="container" id="shoes">
             <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -156,8 +156,8 @@
               </div>
         </section>
         <!-- bag -->
-        <section class="container my-5">
-            <h3>Shoes</h3>
+        <section class="container my-5" id="bag">
+            <h3>Bag</h3>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                   <div class="card h-100 border-0 shadow rounded-3">
@@ -195,7 +195,7 @@
               </div>
         </section>
         <!-- Subcribe -->
-        <section style="height: 300px;" class=" bg-info rounded-3 align-items-center container d-flex justify-content-center">
+        <section style="height: 300px;" class=" bg-info rounded-3 align-items-center container d-flex justify-content-center" id="subcribe">
             <div>
                 <h2>LET'S STAY IN TOUCH</h1>
                     <p>Get updates on sales, specials and more</p>
@@ -205,8 +205,8 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="mt-5 text-center">
+        <small>©2021 Panda Shop. All rights reserved.</small>
     </footer>
 
     <!-- Bootstrap script -->
