@@ -1,0 +1,28 @@
+.p-banner-backgroud {
+  background-color: #feeae9;
+}
+.banner-price {
+  color: #ff136f;
+}
+.button-color {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+.categories-img img {
+  width: 30%;
+}
+.categories-color1 {
+  background-color: orange;
+}
+.categories-color2 {
+  background-color: orchid;
+}
+.categories-color3 {
+  background-color: #2f2fff;
+}
+.all-border {
+  border-radius: 10px;
+}
